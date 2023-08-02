@@ -1,0 +1,9 @@
+{
+  "database": {
+    "driver" : "",
+    "host" : "localhost",
+    "name": "paachinm_plants",
+    "username": "",
+    "password" : ""
+  }
+}

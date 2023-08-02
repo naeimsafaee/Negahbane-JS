@@ -1,0 +1,39 @@
+{
+  "app_url": "http://localhost:3000/",
+  "laravel_app_url": "http://negahbane.site/",
+  "api": {
+    "prefix": "/api",
+    "route": "./routes/api"
+  },
+  "web": {
+    "prefix": "/",
+    "route": "./routes/web"
+  },
+  "telegram": {
+    "prefix": "/bot",
+    "route": "./routes/telegram",
+    "token" : "bot1897034209:AAEPeXpsifWqgOQUAXOpHjIbgNeaUeFXbH8",
+    "url" : "https://api.telegram.org/"
+  },
+  "database": {
+    "host": "localhost",
+    "name": "monitor_db",
+    "username": "root",
+    "password": "123456",
+    "driver": "mongodb"
+  },
+  "constants": {
+    "types": {
+      "ping" : 0,
+      "get" : 1,
+      "post" : 2
+    },
+    "status_of_monitor" : {
+        "0" : "حالش خوبه",
+        "1" : "حالش بده"
+    },
+    "delay_time" : 5,
+    "timeout" : 5
+  }
+
+}

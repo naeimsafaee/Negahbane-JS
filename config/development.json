@@ -1,0 +1,24 @@
+{
+  "app_url" : "http://localhost:3000/",
+  "app_port" : 3000,
+  "database" : {
+    "host": "localhost",
+    "name" : "monitor_db",
+    "username":"root" ,
+    "password":"123456",
+    "driver" : "mongodb"
+  },
+  "constants": {
+    "types": {
+      "ping" : 0,
+      "get" : 1,
+      "post" : 2
+    },
+    "status_of_monitor" : {
+      "0" : "حالش خوبه",
+      "1" : "حالش بده"
+    },
+    "delay_time" : 5,
+    "timeout" : 5
+  }
+}

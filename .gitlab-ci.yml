@@ -1,0 +1,7 @@
+deploy production:
+  stage: deploy
+  tags:
+    - negahban-nodejs
+  script:
+    - cd /home/apinegahban/public_html
+    - git pull origin master
